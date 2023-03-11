@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+	color: white;
+}
+
+body{
+	text-align: center;
+	background-color: #121212;
+}
+
+
+input{
+height: 50px;
+margin: 10px;
+width: 300px;
+border: 2px solid #323232;
+background-color: #292929;
+color: white;
+border-radius: 10px;
+}
+
+.enviarButton{
+	height: 50px;
+	width: 300px;
+}
+
+textarea{
+width: 300px;
+height: 300px;
+resize: none;
+border: 2px solid #323232;
+background-color: #292929;
+color: white;
+border-radius: 10px;
+}
+
+.enviarButton:hover{
+	background-color: #808080;
+}
